@@ -9,7 +9,6 @@ function SearchBar() {
 
   const handleSearchClick = () => {
     const searchTerm = inputRef.current?.value.trim() || "";
-    console.log("search:", searchTerm);
     
     if (!searchTerm) {
       navigate({
@@ -18,7 +17,7 @@ function SearchBar() {
       return;
     }
     navigate({
-      pathname: location.pathname,
+      pathname: "/categories/now-playing",
       search: `?search=${encodeURIComponent(searchTerm)}`,
     });
   };
