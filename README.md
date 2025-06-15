@@ -45,8 +45,9 @@ Your app is ready to be deployed!
 
 ## Features
 
-- **Search movies** by title with live filtering.
+- **Search movies** by title.
 - **Switch between categories**: Now Playing and Top Rated.
+- **Movie detail**: User can view movie details by tapping on a cell.
 - **Lazy-loaded posters** using blur effect and custom animated skeletons for smooth loading.
 - **Grid/List view toggle** for flexible layout preferences.
 - **Responsive layout** that looks great on desktop, tablet, and mobile.
