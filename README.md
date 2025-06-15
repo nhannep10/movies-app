@@ -1,3 +1,7 @@
+# Movie Browser App
+
+A modern web application that allows users to explore "Now Playing" and "Top Rated" movies with a clean, responsive design and smooth user experience.
+
 1. Create an account on: https://www.themoviedb.org/
 
 2. For the app to properly run, create an create a .env file with following:
@@ -30,10 +34,6 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
-
-# Movie Browser App
-
-A modern web application that allows users to explore "Now Playing" and "Top Rated" movies with a clean, responsive design and smooth user experience.
 
 ---
 
