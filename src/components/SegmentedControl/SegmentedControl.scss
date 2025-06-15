@@ -1,0 +1,29 @@
+.segmented-control {
+  display: flex;
+  justify-content: center;
+}
+
+.segmented-control-button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.segmented-control-button:hover {
+  background-color: #555;
+}
+
+.segmented-control-button.active {
+  background-color: #007bff;
+}
+
+.segmented-control-button:first-child {
+  border-radius: 5px 0 0 5px;
+}
+
+.segmented-control-button:last-child {
+  border-radius: 0 5px 5px 0;
+}
